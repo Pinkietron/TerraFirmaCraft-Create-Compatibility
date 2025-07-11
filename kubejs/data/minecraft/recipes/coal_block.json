@@ -7,7 +7,7 @@
     ],
     "key": {
       "C": {
-        "item": "tfc:ore/lignite"
+        "tag": "minecraft:coals"
       }
     },
     "result": {
