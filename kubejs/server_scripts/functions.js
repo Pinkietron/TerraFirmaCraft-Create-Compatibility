@@ -2,6 +2,15 @@
 const tfcCalendar = Java.loadClass('net.dries007.tfc.util.calendar.Calendars') //only works if kubejs/config/common.properties has disableClassFilter = true
 
 
+ServerEvents.recipes(event => {
+    event.recipes.tfc.bloomery(
+        'tfc:raw_iron_bloom',
+        '2x #tfc:bloomery_fuel',
+        Fluid.of('tfc:metal/cast_iron', 100),
+        15000
+    )
+})
+
 BlockEvents.rightClicked(event=>
 {
     //LIGHTING COAL FORGE

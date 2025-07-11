@@ -1,6 +1,10 @@
 
 ServerEvents.recipes(event =>
 {
+	//overwrite default bloomery recipe
+	event.remove({id: 'tfc:bloomery/raw_iron_bloom'})
+
+
 	//removed for clarity of other recipes
 	event.remove({id: 'minecraft:charcoal'})
 	event.remove({id: 'minecraft:lapis_block'})
