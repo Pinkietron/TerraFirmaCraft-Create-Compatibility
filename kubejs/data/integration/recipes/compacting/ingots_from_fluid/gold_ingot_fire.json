@@ -1,0 +1,21 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "fluid": "tfc:metal/gold",
+        "nbt": {},
+        "amount": 100
+      },
+      {
+        "item": "tfc:ceramic/fire_ingot_mold"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:metal/ingot/gold"
+      },
+      {
+        "item": "tfc:ceramic/fire_ingot_mold"
+      }
+    ]
+}

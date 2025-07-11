@@ -1,0 +1,21 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "fluid": "tfc:metal/blue_steel",
+        "nbt": {},
+        "amount": 100
+      },
+      {
+        "item": "tfc:ceramic/fire_ingot_mold"
+      }
+    ],
+    "results": [
+      {
+        "item": "tfc:metal/ingot/blue_steel"
+      },
+      {
+        "item": "tfc:ceramic/fire_ingot_mold"
+      }
+    ]
+}
